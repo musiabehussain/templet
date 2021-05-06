@@ -1,0 +1,31 @@
+.hello{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 200px;
+     width: 200px;
+     border: 2px solid red;
+     margin: auto;
+}
+
+
+.control{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 20px;
+     text-align: center;
+
+}
+.button{
+     margin-left: 10px;
+}
+.bg{
+     background-color: green;
+     color: antiquewhite;
+}
+.bd{
+
+     border: 5px solid red;
+
+     background-color: gold;
+}

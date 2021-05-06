@@ -1,0 +1,61 @@
+html,body, .container{
+     height: 90%;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.clock{
+    position: relative;
+    width: 267px;
+    height: 264px;
+    border: 20px solidblue;
+    background-image:  url(images/clock.JPG);
+    text-align: center;
+}
+.clock:after{
+     position: absolute;
+     content: "";
+     background-color: red;
+     width: 25px;
+     height: 25px;
+     top: 127px;
+     border-color: blue;
+     border-style: dotted;
+     right: 110px;
+     border-radius: 50%;
+     transform: translateX(-50%);
+     transform: translateY(-50%);
+}
+ .hands::before{
+	content: "";
+	position: absolute;
+	height: 113px;
+     border-radius: 50%;
+	width: 5px;
+     text-align: center;
+	background-color:red;	
+}
+ .handsh::before{
+	content: "";
+	position: absolute;
+	height: 60px;
+     border-radius: 50%;
+	width: 9px;
+
+     text-align: center;
+	background-color: blue;	
+}
+ .handsm::before{
+     border-radius: 50%;
+	content: "";
+	position: absolute;
+	height: 92px;
+	width: 4px;
+
+     text-align: center;
+	background-color:black;	
+}
+
+

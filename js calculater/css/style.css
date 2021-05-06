@@ -1,0 +1,89 @@
+*{
+     
+     margin: 0px;
+     padding: 0px;
+}
+.box{
+     height: 30px;
+     width: 100px;
+     background-color: black;
+     position: relative;
+     left: 623px;
+     border-bottom-left-radius: 13px;
+     top: 73px;
+}
+.formstyle{
+     text-align: center;
+     margin-top: 20px;
+     border: 23px solid  gray;
+     border-style:inset;
+     width: 300px;
+     margin-left: 400px;
+     border-radius: 8px;
+     background-color: black;
+}
+.box2{
+       height: 30px;
+     width: 339px;
+     background-color:  gray;
+     border-top-left-radius: 33px;
+     position: relative;
+      border-top-right-radius: 17px;
+     left: 397px;
+     transform:skew(30deg);
+     top: 54px;   
+}
+.box3{
+     border-bottom-left-radius: 100px;
+      height: 571px;
+     width: 17px;
+     background-color: gray;
+     border-top-left-radius: 70px;
+     position: relative;
+     bottom: 571px;
+     left: 396px;
+}
+.input1{
+     background-color:rgba(155, 177, 155, 0.489);
+     width: 260px;
+     margin-right: 2px;
+     outline: none;
+     border: none;
+     font-size: 37px;
+     padding: 50px 20px;
+     text-align: left;
+     border-bottom: 4px solid rgb(67, 63, 63);
+}
+.clear{
+     background-color: rgba(255, 0, 0, 0.441);
+    cursor: pointer;
+     padding: 6px 0px;
+     text-transform: uppercase;
+     width: 280px;
+     border-radius: 5px;
+     border-color: transparent;
+     margin-bottom: 7px;
+}
+.btns{
+     cursor: pointer;
+     padding: 5px 28px;
+     outline: none;
+     border-radius: 7px;
+     margin: 5px;
+}
+.btns:hover{
+    color: red;
+    background-color:  gray;
+}
+.equall{
+     padding: 11px 28px;
+     outline: none;
+     border-radius: 7px;
+     cursor: pointer;
+      margin: 5px;
+     
+}
+.equall:hover{
+     background-color: saddlebrown;
+     color: red;
+}

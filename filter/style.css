@@ -1,0 +1,42 @@
+body{
+  background-image: url(./images/ali.jpg);
+  background-position: center;
+  position:fixed;
+  background-blend-mode: color-dodge; 
+}
+#myTable{
+     width: 76%;
+     margin-left: 12%;
+     background-color:  rgba(0, 0, 0, 0.561);
+     box-shadow: 0 0 13px 13px rgb(22, 32, 4);
+     border-radius: 5px;
+}
+
+.mainhed{
+     font-size: 50px;
+     text-align: center;
+     color: brown;
+     font-family: cursive;
+}
+.maininput{
+width: 76%;
+border-radius: 5px;
+padding: 6px 0px;
+box-shadow: 0 0 13px 13px rgb(20, 31, 3);
+border: none;
+margin-bottom: 1%;
+}
+td{
+     color: whitesmoke;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     border: 1px solid gray;
+     font-size: 112%;
+     text-transform: uppercase;
+     text-align: left;
+     padding: 4px 3px;   
+}
+.header{
+     background-color: rgba(128, 128, 128, 0.5);
+     font-size: 25px;
+     color: honeydew;
+}

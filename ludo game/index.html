@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>JS ludo</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+
+
+<div class="container">
+     <h1>JavascripT ludo</h1>
+     <div class="dice"style="margin-right: 5%;">
+          <p>player 2</p>
+          <img src="images/Capture5.JPG" alt="" id="check1">
+
+     </div>
+     <div class="dice" >
+          <p>player 1</p>
+          <img src="images/Capture5.JPG" alt="" id="check2">
+     
+     </div>
+     <div>
+          <button onclick="ludo()" >click me</button>
+     </div>
+
+</div>
+
+
+
+<script>
+     confirm(" press OK to play Javascript Ludo game")
+
+ludo =()=>{
+const play1 = Math.floor( Math.random() * 6) +1;
+
+const play1dice = `images/capture${play1}.JPG`;
+
+document.getElementById('check1').setAttribute('src', play1dice);
+
+     const play2 = Math.floor(Math.random() * 6) + 1;
+
+     const play2dice = `images/capture${play2}.JPG`;
+
+     document.getElementById('check2').setAttribute('src', play2dice);
+     
+
+     if (play1 <play2) {
+          document.querySelector('h1').innerHTML=" player 1 won :)";
+      }
+          
+    else if( play1 > play2 ){
+         document. querySelector('h1').innerHTML = " player 2 won :)";
+
+    }
+
+    else{ document.querySelector('h1').innerHTML = " DRAW:)";}
+}
+</script>
+
+</body>
+</html>
