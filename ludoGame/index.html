@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>JS ludo</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+
+
+<div class="container">
+ 
+     <div class="dice"style="margin-right: 67%;">
+          <p>player 1</p>
+          <img src="images/Capture5.JPG" alt="" id="check1"    style="border: 6px solid rgba(0, 0, 0, 0.692);">
+
+     </div>
+     <div class="dice" >
+          <p>player 2</p>
+          <img src="images/Capture5.JPG" alt="" id="check2"     style="border: 6px solid  rgba(0, 0, 0, 0.698);">
+     
+     </div>
+     <div>
+          <img src="" alt="">
+          <button onclick="ludo()">
+          <img src="images/laa.JPG" alt="" style="border: 2px solid  rgb(3, 11, 22); cursor: pointer;">
+          </button>
+     </div>
+     <h1>Js ludo</h1>
+
+ 
+
+</div>
+
+<!-- java script -->
+
+
+<script>
+     confirm(" press OK to play Javascript Ludo game")
+
+ludo =()=>{
+const play1 = Math.floor( Math.random() * 6) +1;
+
+const play1dice = `images/capture${play1}.JPG`;
+
+document.getElementById('check1').setAttribute('src', play1dice);
+
+     const play2 = Math.floor(Math.random() * 6) + 1;
+
+     const play2dice = `images/capture${play2}.JPG`;
+
+     document.getElementById('check2').setAttribute('src', play2dice);
+     
+
+     if (play1 >play2) {
+
+       document.querySelector('h1').innerHTML=" player 1 win";
+      }
+          
+    else if( play1 < play2 ){
+      document. querySelector('h1').innerHTML = " player 2 win";
+
+    }
+
+    else{ document.querySelector('h1').innerHTML = " DRAW";}
+}
+</script>
+
+</body>
+</html>
