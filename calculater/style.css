@@ -1,0 +1,45 @@
+.container{
+      text-align: center;
+     background-color: black;
+     display: inline-block;
+     margin-left: 39%;
+     border-radius: 16px;
+     padding: 10px 4px;
+}
+.body{
+border-color: thistle;
+     }
+.heading{
+     text-align: center;
+     font-family: cursive;
+     font-size: 40px;
+     color :springgreen;
+}
+
+table{
+     margin: auto;
+}
+input{
+     outline: none;
+     font-size: 23px;
+     width: auto;
+     background-color: rgba(255, 255, 255, 0.466);
+     border: 3px solid green;
+     border-radius: 10px;
+     padding: 50px  0px;
+     color: white;
+     word-spacing: 2px;
+}
+button{
+     font-size: 31px;
+     background-color: aqua;
+     width: 70px;
+     border-color: gainsboro;
+     height: 65px;
+     color: white;
+     border-radius: 15px;
+     background-color: rgb(15, 27, 27);
+     font-family: cursive;
+
+}
+
